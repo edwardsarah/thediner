@@ -74,7 +74,6 @@ scene.add(new THREE.AmbientLight(0xffffff, 0.1));
 
 const raycaster = new THREE.Raycaster();
 document.addEventListener('mousedown', onMouseDown);
-document.addEventListener('mousedown', onMouseDown);
 
 //set up Bloom
 const renderScene = new RenderPass(scene, camera);
@@ -240,13 +239,12 @@ function onMouseDown(event){
 	);
 
 	raycaster.setFromCamera( pointer, camera );
-	const intersections = raycaster.intersectObjects(photos, true);
+	const intersections = raycaster.intersectObjects(photos.children, true);
 	if (intersections.length > 0){
 		const selectedObject = intersections[0].object; //returns the first object it collides with
 		
 		console.log("Clicked state:", selectedObject.userData.clicked, selectedObject.name);
 
-		if (photos.children.includes(selectedObject)){
 			if (selectedObject.userData.clicked == 0){
 				selectedObject.children.forEach(child => {
 					if (child instanceof CSS2DObject) {
@@ -267,7 +265,6 @@ function onMouseDown(event){
 				photos.remove(selectedObject);
 	
 			}
-		}
 		
 	}
 
