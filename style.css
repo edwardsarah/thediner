@@ -7,12 +7,12 @@
 .caption {
     font-family: "Courier New", serif;
     font-weight: 400;
-    font-size: larger;
     font-style: normal;
     background-color: #000035;
-    padding: 10px;
+    padding: 50px;
     color: #fafce0;
     position: relative;
+    top: 0;
     transform: translateY(-10px);
     transition-duration: 0.2s;
     transition-property: opacity, transform;

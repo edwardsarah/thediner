@@ -1,0 +1,11 @@
+Model Information:
+* title:	Diner Counter
+* source:	https://sketchfab.com/3d-models/diner-counter-24cbc25459c84319bee599dc2ff73c6a
+* author:	Mick Chambers (https://sketchfab.com/MickChambers)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Diner Counter" (https://sketchfab.com/3d-models/diner-counter-24cbc25459c84319bee599dc2ff73c6a) by Mick Chambers (https://sketchfab.com/MickChambers) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
